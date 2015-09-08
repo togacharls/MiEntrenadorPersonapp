@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item3"
+         android:visible="true"
+         android:enabled="true"
+         android:icon="@android:drawable/ic_menu_more"
+        android:showAsAction="ifRoom">
+        
+        <menu>
+            
+            <item android:id="@+id/item4"
+                android:title="@string/cronometro"
+                android:showAsAction="collapseActionView"
+                android:visible="true"
+                android:enabled="true"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/fondobotonfinal">
+            </item>
+                        
+            <item android:id="@+id/item5"
+                android:title="@string/configuracion"
+                android:showAsAction="collapseActionView"
+                android:visible="true"
+                android:enabled="true"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/fondobotonfinal"/>
+            
+            <item android:id="@+id/item6"
+                android:title="@string/salir"
+                android:visible="true"
+                android:showAsAction="collapseActionView"
+                android:enabled="true"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/fondobotonfinal"/>
+        </menu>
+    </item>
+
+</menu>

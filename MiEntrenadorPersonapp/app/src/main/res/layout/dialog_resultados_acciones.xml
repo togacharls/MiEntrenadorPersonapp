@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fondodegradado"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/drafacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/publicarFacebook"
+       	android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"/>
+
+    <Button
+        android:id="@+id/draemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendMail"
+       	android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"/>
+
+    <Button
+        android:id="@+id/draguardarimagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saveImage"
+        android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"/>
+    
+  	<Button
+        android:id="@+id/dracancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="togacharls.mientrenadorpersonapp"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation = "auto">
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:name=".Application.MiEntrenadorPersonapp"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_logo"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.SesionActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Activities.IMCActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Activities.PerfilActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Activities.ModificarPerfilActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">>
+        </activity>
+
+        <activity android:name=".Activities.OpcionesActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Activities.RutinaActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".Activities.DefinirRutinaActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".Activities.ResultadosActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">		<!-- Sin esto, al haber un EditText
+            												debajo de un ListView, al aparecer
+            												el teclado, éste oculta al EditText -->
+        </activity>
+
+        <activity android:name=".Activities.CronometroActivity"
+            android:configChanges = "orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!-- Activity necesaria para Facebook -->
+        <activity android:name="com.facebook.FacebookActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <!--
+        <activity android:name="org.achartengine.GraphicalActivity" /> -->
+
+        <!-- Metadatos necesarios para Facebook-->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fondodegradado"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+   
+   	<Button
+   	    android:id="@+id/ejercicioanterior"
+   	    android:contentDescription="@string/ejanterior"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent"
+   	    android:layout_marginRight="10dp"
+   	    android:textColor="#000000"
+   	    android:background="@android:color/transparent"
+   	    android:text="@string/ant"/>
+   	
+    <ImageView
+        android:id="@+id/fotoEj"
+        android:contentDescription="@string/fotoej"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="fitXY"/>   	
+
+   	<Button
+   	    android:id="@+id/ejerciciosiguiente"
+   	    android:contentDescription="@string/ejsiguiente"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="match_parent"
+   	    android:layout_marginLeft="10dp"
+   	    android:textColor="#000000"
+   	    android:background="@android:color/transparent"
+   	    android:text="@string/sig"/>
+
+   	</LinearLayout>
+   <LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="25dp">
+        
+	<Button
+        android:id="@+id/ejercicioseleccionar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".48"
+        android:text="@string/seleccionar"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fondobotonfinal"
+        style="?android:attr/bottomDark"/>
+   
+   	<Button
+        android:id="@+id/salirdialogo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".48"
+        android:layout_marginLeft="10dp"
+        android:text="@string/cerrar"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fondobotonfinal"
+        style="?android:attr/bottomDark"/>
+   	</LinearLayout>   	
+
+</LinearLayout>

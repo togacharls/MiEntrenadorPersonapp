@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">MiEntrenadorPersonapp</string>
+    <!-- Facebook: -->
+    <string name="app_id">828073903876122</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="publish_feed">Publish feed</string>
+    <string name="publish_story">Publish story</string>
+    <string name="invite_all">Invite all</string>
+    <string name="invite_one">Invite one</string>
+    <string name="invite_suggested">Invite suggested</string>
+    <string name="get_my_profile">Get my profile</string>
+    <string name="get_my_profile_with_properties">Get my profile (Properties)</string>
+    <string name="get_friends">Get friends</string>
+    <string name="get_friends_with_properties">Get friends (Properties)</string>
+    <string name="fb_feed_caption">Know who are your best friends</string>
+    <string name="fb_feed_description">With Besties, the exciting new social game, you will be able to find out how truly do you know your friends</string>
+    <string name="fb_feed_link">https://play.google.com/store/apps/details?id=com.besties</string>
+    <string name="fb_feed_name">Besties</string>
+    <string name="fb_feed_message">Who dare to be my opponent? :)</string>
+    <string name="fb_feed_image">http://romkuapps.com/Apps/Socialist/blue_version_2.png</string>
+    <string name="fragment_example_">Fragment example >></string>
+    <string name="publish_photo">Publish photo</string>
+    <string name="get_albums">Get albums</string>
+    <string name="publicarFacebook">Publicar en Facebook</string>
+    <string name="sendMail">Enviar por correo electrónico</string>
+    <string name="saveImage">Almacenar imagen</string>
+
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="veces">Veces</string>
+    <string name="intervalo">Intervalo (segundos)</string>
+    <string name="carga">Carga (Kg)</string>
+
+    <string name="iniciarsesion">Comenzar Sesión</string>
+    <string name="perfil">Perfil</string>
+    <string name="rutinas">Rutina</string>
+    <string name="resultados">Resultados</string>
+
+    <string name="altura">Altura:</string>
+    <string name="peso">Peso:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="fechanacimiento">Fecha de nacimiento:</string>
+    <string name="resultado">Resultado:</string>
+    <string name="utilizardatosdelperfil">Utilizar datos del perfil:</string>
+
+    <string name="cronometro">Cronómetro</string>
+    <string name="salir">Salir</string>
+    <string name="configuracion">Configuración</string>
+
+    <string name="seleccionar">Seleccionar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="imc">IMC</string>
+    <string name="tablaimc">Tabla para determinar la condición física en función del IMC</string>
+    <string name="modificar">Modificar</string>
+
+    <string name="ejercicioactual">Ejercicio que se está realizando actualmente</string>
+    <string name="registrar">Registrar</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="seleccionarcarga">Seleccionar carga</string>
+
+    <string name="ejsrutina">Ejercicios de la rutina</string>
+    <string name="ejstodos">Todos los ejercicios</string>
+    <string name="ejsiguiente">Ejercicio siguiente</string>
+    <string name="ejanterior">Ejercicio anterior</string>
+    <string name="fotoej">Imagen del ejercicio</string>
+    <string name="selectej">Seleccionar ejercicio</string>
+    <string name="contarrepeticiones">Contar repeticiones</string>
+    <string name="introducirmanualmente">Introducir manualmente</string>
+    <string name="sonar">Sonar</string>
+    <string name="acciones">Acciones</string>
+    <string name="fecha">Fecha</string>
+    <string name="ejercicio">Ejercicio</string>
+    <string name="verresultados">Ver Resultados</string>
+    <string name="calcularimc">Calcular IMC</string>
+    <string name="ningunejercicio"> Ningún ejercicio </string>
+    <string name="sig">→</string>
+    <string name="ant">←</string>
+    <string name="lunes">Lunes</string>
+    <string name="ejerciciosseleccionados">Ejercicios seleccionados</string>
+    <string name="guardardia">Guardar día</string>
+    <string name="descansoentreejercicios">Descanso entre ejercicios:</string>
+    <string name="descansoentreseries">Descanso entre series:</string>
+    <string name="buscarejercicios">Buscar ejercicios</string>
+    <string name="repeticiones">Repeticiones:</string>
+    <string name="iniciar"> Iniciar</string>
+    <string name="detener">Detener</string>
+    <string name="m">M</string>
+    <string name="f">F</string>
+    <string name="personalizar">Personalizar</string>
+    <string name="serieser">Series:</string>
+    <string name="repeticioneser">Repeticiones:</string>
+    <string name="ok">OK</string>
+    <string name="iniciando">Iniciando</string>
+    <string name="activarsonido">Activar sonido</string>
+    <string name="guardarcambios">Guardar cambios</string>
+    <string name="borrarregistro">Borrar registro</string>
+    <string name="confirm">¿Estás seguro de que quieres borrar los datos?</string>
+    <string name="tiemposesion">Tiempo de sesión: </string>
+    <string name="dospuntos">:</string>
+    <string name="cero">0</string>
+    <string name="dosceros">00</string>
+</resources>

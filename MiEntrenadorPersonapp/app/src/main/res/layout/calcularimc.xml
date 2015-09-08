@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/fondodegradado"
+    android:paddingTop="45dp">
+
+   
+      <CheckBox
+          android:id="@+id/perfilIMC"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:text="@string/utilizardatosdelperfil"
+          android:textColor="#000000"
+          android:textSize="14sp" />
+      
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         
+        	<TextView
+        		android:id="@+id/textoAlturaIMC" 
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"     
+        		android:text="@string/altura"
+        		android:layout_marginTop="10dp"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:textColor="#000000"
+        		android:textSize="14sp"/>
+        	
+			<LinearLayout
+				android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:gravity="right">
+  				
+  				<EditText
+  	    			android:id="@+id/editAlturaIMC"
+  	    			android:layout_width="wrap_content"
+  	    			android:layout_height="wrap_content"
+  	    			android:layout_marginLeft="20dp"
+  	    			android:ems="3"
+  	    			android:inputType="numberDecimal"
+  	    			android:textColor="#000000"
+  	    			android:textSize="14sp">
+       				
+					</EditText> 
+	
+			</LinearLayout>
+  	            	
+		</LinearLayout> 	    	
+
+		<LinearLayout
+			android:layout_width="match_parent"
+    		android:layout_height="wrap_content">      	
+  
+        	<TextView
+        		android:id="@+id/textoPesoIMC"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" 
+        		android:layout_marginTop="10dp"      
+        		android:text="@string/peso"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:textColor="#000000"
+        		android:textSize="14sp"/>
+        	
+			<LinearLayout
+				android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:gravity="right">
+       	
+       		<EditText
+       				android:id="@+id/editPesoIMC"  	    
+       				android:layout_width="wrap_content"
+  	   				android:layout_height="wrap_content"
+  	    			android:ems="3"
+  	    			android:inputType="numberDecimal"
+  	    			android:textColor="#000000"
+  	    			android:textSize="14sp">
+
+       			
+				</EditText>
+				
+			</LinearLayout>      
+			  	
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="20dp">
+        	
+        	<TextView   
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"       
+        		android:text="@string/resultado"
+        		android:textAppearance="?android:attr/textAppearanceLarge"
+        		android:textColor="#000000"
+        		android:textSize="14sp"/>
+        	<LinearLayout
+				android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:gravity="right">
+        		<TextView
+        			android:id="@+id/resultadoIMC"
+       				android:layout_width="wrap_content"
+  	   				android:layout_height="wrap_content"
+  	    			android:textColor="#000000"
+  	    			android:textSize="14sp"/>
+        	</LinearLayout>
+		</LinearLayout>       	
+		
+ 		<ImageView
+    		android:id="@+id/tablaIMC"
+    		android:contentDescription="@string/tablaimc"
+    	 	android:layout_width="wrap_content"
+    	 	android:layout_height="wrap_content"
+    	 	android:src="@drawable/imc"/>
+ 		
+ 		<LinearLayout
+ 	    	android:layout_width="match_parent"
+ 	    	android:layout_height="match_parent"
+ 	    	android:gravity="bottom">
+  			<Button
+          		android:id="@+id/obtenerIMC"
+          		android:layout_width="match_parent"
+          		android:layout_height="wrap_content"
+          		android:text="@string/calcularimc"
+          		android:layout_marginTop="10dp"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/fondobotonfinal"/>
+  		
+  		</LinearLayout>
+  		
+</LinearLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondodegradado"    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="70dp" >
+    
+    <TextView
+        android:id="@+id/textoNombreModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoNombreModificarPerfil"
+        android:layout_alignParentRight="true"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp">
+		</EditText>         
+
+    <TextView
+        android:id="@+id/textoFechaModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textoNombreModificarPerfil"
+        android:layout_marginTop="15dp"
+        
+        android:text="@string/fechanacimiento"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+      	android:textColor="#000000"
+        android:textSize="14sp" />
+
+   <EditText
+        android:id="@+id/editEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoFechaModificarPerfil"
+        android:layout_alignParentRight="true"
+        android:ems="6"
+        android:inputType="date"
+        android:textColor="#000000"
+        android:textSize="14sp">
+
+		</EditText>         
+
+    <TextView
+        android:id="@+id/textoSexoModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textoFechaModificarPerfil"
+        android:layout_marginTop="20dp"
+        android:text="@string/sexo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textoAlturaModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textoSexoModificarPerfil"
+        android:layout_marginTop="20dp"
+        android:text="@string/altura"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoAlturaModificarPerfil"
+        android:layout_alignParentRight="true"
+        android:ems="3"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textSize="14sp">
+		</EditText>         
+
+    <TextView
+        android:id="@+id/textoPesoModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/peso"
+        android:layout_below="@+id/textoAlturaModificarPerfil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoPesoModificarPerfil"
+        android:layout_alignParentRight="true"
+        android:ems="3"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textSize="14sp">
+		</EditText> 
+
+    <TextView
+        android:id="@+id/textoCorreoModificarPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/email"
+        android:layout_below="@+id/textoPesoModificarPerfil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textoCorreoModificarPerfil"
+        android:layout_alignParentRight="true"
+        android:ems="8"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="14sp">
+		</EditText> 
+    
+   <LinearLayout
+   	    android:layout_height="wrap_content"
+   	    android:layout_width="match_parent"
+   	    android:orientation="horizontal"
+   	    android:gravity="right"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textoSexoModificarPerfil"
+        android:layout_toRightOf="@+id/textoSexoModificarPerfil">
+        
+        <RadioButton
+            android:id="@+id/sexoM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/m"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/sexoF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/f"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/textoCorreoModificarPerfil"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+    <Button
+        android:id="@+id/aceptarPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"
+        android:text="@string/aceptar"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/cancelarPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar"
+        android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"
+		android:background="@drawable/fondobotonfinal"
+        android:textSize="14sp" />    
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="45dp"
+    android:background="@drawable/fondodegradado"
+    android:orientation="vertical">
+    
+   	<LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="bottom">
+    <TextView
+        android:id="@+id/dmrtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intervalo" />
+   	<LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="right">	    
+   		<EditText
+        	android:id="@+id/dmrsegs"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:layout_gravity="right"
+        	android:ems="3"
+        	android:inputType="number"
+        	android:textSize="14sp">
+		</EditText>         	
+     </LinearLayout>  
+    </LinearLayout>
+    
+   	<LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="15dp"
+    	android:gravity="bottom">
+        
+    <TextView
+        android:id="@+id/dmrtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veces" />          
+   	<LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="right">	
+    	<EditText
+        	android:id="@+id/dmrveces"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="right"
+        	android:ems="3"       
+        	android:inputType="number"
+        	android:textSize="14sp">
+       	<requestFocus />
+		</EditText>         	
+    </LinearLayout>
+    </LinearLayout>
+    
+   <LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="45dp">
+    <Button
+        android:id="@+id/dmraceptar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".48"
+        android:text="@string/aceptar"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fondobotonfinal"
+       style="?android:attr/bottomDark"/>
+
+    <Button
+        android:id="@+id/dmrcancelar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".48"
+        android:layout_marginLeft="10dp"
+        android:text="@string/cancelar"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/fondobotonfinal"
+        style="?android:attr/bottomDark"/>
+    </LinearLayout>
+
+</LinearLayout>

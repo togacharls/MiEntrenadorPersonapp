@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fondodegradado"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="@string/confirm"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> 
+    
+   <LinearLayout
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="45dp">
+    	<Button
+        	android:id="@+id/dbaceptar"
+        	android:layout_width="0dp"
+        	android:layout_weight=".49"
+        	android:layout_height="wrap_content"
+        	android:text="@string/aceptar"
+        	android:textColor="#FFFFFF"
+        	android:background="@drawable/fondobotonfinal"
+       		style="?android:attr/bottomDark"/>
+
+    <!--   style="?android:attr/borderlessButtonStyle" -->
+    	<Button
+        	android:id="@+id/dbcancelar"
+        	android:layout_width="0dp"
+        	android:layout_gravity="right"
+        	android:layout_marginLeft="10dp"
+        	android:textColor="#FFFFFF"
+       		android:layout_weight=".49"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/fondobotonfinal"
+        	android:text="@string/cancelar"
+        	style="?android:attr/bottomDark"/>
+	</LinearLayout>    
+
+</LinearLayout>
