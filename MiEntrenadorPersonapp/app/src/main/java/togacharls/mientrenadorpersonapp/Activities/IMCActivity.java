@@ -58,6 +58,7 @@ public class IMCActivity extends AppCompatActivity {
 			double altura = Double.parseDouble(alturaEditText.getText().toString()) / 100;
 			double peso = Double.parseDouble(pesoEditText.getText().toString());
     		double result = peso/(altura * altura);
+    		result = Math.rint(result*100)/100;
     		Resultado.setText(Double.toString(result));
     	}
     	else{
