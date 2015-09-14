@@ -55,9 +55,9 @@ public class IMCActivity extends AppCompatActivity {
 	* */
 	private void calcularIMC(){
     	if(!alturaEditText.getText().toString().isEmpty() && !pesoEditText.getText().toString().isEmpty()){
-    		double result = Double.parseDouble(pesoEditText.getText().toString())/(
-    		Double.parseDouble(alturaEditText.getText().toString()) * Double.parseDouble(alturaEditText.getText().toString()));
-    		result = Math.rint(result*100)/100;
+			double altura = Double.parseDouble(alturaEditText.getText().toString()) / 100;
+			double peso = Double.parseDouble(pesoEditText.getText().toString());
+    		double result = peso/(altura * altura);
     		Resultado.setText(Double.toString(result));
     	}
     	else{

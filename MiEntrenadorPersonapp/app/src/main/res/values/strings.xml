@@ -39,11 +39,11 @@
     <string name="rutinas">Rutina</string>
     <string name="resultados">Resultados</string>
 
-    <string name="altura">Altura:</string>
-    <string name="peso">Peso:</string>
+    <string name="altura">Altura (cm):</string>
+    <string name="peso">Peso (kg):</string>
     <string name="sexo">Sexo:</string>
-    <string name="nombre">Nombre</string>
-    <string name="email">Correo electrónico</string>
+    <string name="nombre">Nombre:</string>
+    <string name="email">Correo electrónico:</string>
     <string name="fechanacimiento">Fecha de nacimiento:</string>
     <string name="resultado">Resultado:</string>
     <string name="utilizardatosdelperfil">Utilizar datos del perfil:</string>
